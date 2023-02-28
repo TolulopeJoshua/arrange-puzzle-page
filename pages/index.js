@@ -12,6 +12,7 @@ export default function Home() {
         <title>Arrange Puzzle Game - Jigsaw Puzzle</title>
         <meta name="description" content="Arrange Puzzle is a jigsaw puzzle game where you arrange shuffled image puzzle to score points and earn rewards - unlock new images." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google-site-verification" content="zLGRHWGUK0rrGgCMmqmcw837GdC5sjpwAgsUSZt71CU" />
         <link rel="icon" href="/icon.png" />
       </Head>
       <main className={styles.main}>
