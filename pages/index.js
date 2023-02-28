@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/icon.png" />
       </Head>
       <main className={styles.main}>
-        <div style={{position: 'absolute', top: 0, left: 0, width: '100%', zIndex: -1, opacity: 0.3}}>
+        <div style={{position: 'absolute', top: 0, left: 0, width: '100vw', zIndex: -1, opacity: 0.3, overflow: 'hidden'}}>
           <Image src={'/leafgreen.jpg'} width={'1500'} height={530} alt={'leaf green'} />
         </div>
         <header className={styles.header}>
