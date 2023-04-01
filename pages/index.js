@@ -37,6 +37,7 @@ export default function Home() {
             </span>
             <Image src={'/android.png'} width={350} height={450} alt={'play store'} />
           </span>
+          <a style={{position: 'absolute', left: 10, bottom: 2, color: 'white'}} href='https://godinprints.org'>by: <em style={{textDecoration: 'underline'}}>GIP Libraries</em></a>
         </header>
         <section className={styles.section}>
           <div>
@@ -68,7 +69,7 @@ export default function Home() {
             </a>
         </section>
         <footer className={styles.footer}>
-          &copy; GIP Apps
+          &copy; <a style={{textDecoration: 'underline'}} href='https://play.google.com/store/apps/dev?id=7331341516290803138'>GIP Apps </a>
         </footer>
       </main>
     </>
